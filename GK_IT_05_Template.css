@@ -1,0 +1,29 @@
+* {
+	font-family:Arial;
+}
+#header {
+	text-align:center;
+	font-size:32px;
+}
+#menu {
+	width:200px;
+	background-color:#EEE;
+	text-align:right;
+}
+#data {
+	background-color:#AAA;	
+}
+#footer {
+		text-align:center;
+}
+.form_data {
+	background-color:#FFF;
+	border-radius:10px;
+}
+@media only screen and (max-width : 950px) {
+	#menu, #data{
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+}
